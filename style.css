@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Martal+Sans:wght@600&family=Poppins:@wght300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assests/1111.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+
+    height: 70vh;
+
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    max-width: 60vh;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martal Sans', sans-serif;
+
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+
+}
+
+.hero> :first-child {
+
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn {
+    padding: 3px 8px;
+
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white
+}
+
+.main input {
+
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    align-items: center;
+    color:
+        white;
+    font-size: large;
+    
+
+}
+
+.secImg {
+    position: relative;
+    padding: 50px;
+
+    width: 30vw;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    width: 30vw;
+}
+
+.ooo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    align-items: center;
+    color:
+        white;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+
+}
+
+.haseeb {
+    background-color: rgba(248, 243, 243, 0.521);
+    width: 96%;
+    height: 7px;
+    margin-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+
+
+}
+
+.ppp {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ask {
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.faq{height: 250px;
+position: relative;
+z-index: 10;}
+
+.fir  {
+    color: white;
+    margin: 30px;
+   gap: 30px;display: flex;
+  
+    
+    display: flex;
+   margin: 30px;
+  width: 80vw;
+    height: 40px;
+    background-color: rgba(248, 243, 243, 0.521);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    justify-content: space-between;
+    
+}
+.faq{margin-left: 30px;
+   align-items: center;
+  
+
+justify-content: space-between;}
+
+@media screen and (max-width: 500px){  
+    
+    .haseeb{width: 85%;}
+    .first img , video{
+        width: 250px;
+        flex-wrap: wrap;
+    }
+    .first video{width: 250px;}
+    .faq{
+        font-size: 10px;
+    }
+    .first{flex-wrap: wrap;}
+    .main input{width: 70px;}
+    .main .btn-red{padding: 5px;
+    font-size:10px;
+font-weight: 200;}
+.www{margin-left: 10px;
+margin-right: 60px;}
+body{margin: 0;
+padding: 0;}
+    
+    
+}
